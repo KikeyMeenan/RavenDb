@@ -13,6 +13,8 @@ namespace RavenDb
         public CharacterClass Class { get; set; }
         public Race Race { get; set; }
         public List<Item> Inverntory { get; set; }
+        public string ImageId { get; set; }
+        public string SiblingId { get; set; }
     }
 
     public class CharacterClass
